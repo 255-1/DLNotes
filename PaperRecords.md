@@ -1,0 +1,57 @@
+# 论文笔记  
+
+## 对比学习
+
++ ##  [Unsupervised Feature Learning via non-Parametric Instance Discrimination(InstDisc)](./Paper/Unsupervised_Feature_Learning_via_Non-Parametric_Instance_Discrimination.md)  
+
++ ##  [Unsupervised Embedding Learning via Invariant and Spreading Instance Feature(InvaSpread)](./Paper/Unsupervised_Embedding_Learning_via_Invariant_and_Spreading_Instance_Feature.md) 
+
+ 
+
++ ##  [Representation Learning with Contrastive Predictive Coding(CPC)](./Paper/Representation_Learning_with_Constrastive_Predictive_Coding.md) 
+
++ ##  [Contrastive Multiview Coding(CMC)](./Paper/Contrastive_Multiview_Coding.md)  
+  
++ ##  [Learning deep representations by mutual information estimation and maximization(DeepInfoMax)](./Paper/Learning_deep_representations_by_mutual_information_estimation_and_maximization.md)  
+
++ ##  [Mutual Information Neural Estimation(MINE)](./Paper/Mutual_Information_Neural_Estimation.md)  
+
++ ##  [Momentum Contrast for Unsupervised Visual Representation Learning(Moco)](./Paper/Momentum_Contrast_for_Unsupervised_Visual_Representation_Learning.md)
+
+对比学习看过的内容  
+[李沐Transformer](https://www.bilibili.com/video/BV1pu411o7BE/?spm_id_from=333.788)  
+[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+[李沐Moco](https://www.bilibili.com/video/BV1C3411s7t9/?spm_id_from=333.788)  
+[对比学习综述](https://www.bilibili.com/video/BV19S4y1M7hm/?spm_id_from=333.788)  
+[self-attention入门](https://www.youtube.com/watch?v=hYdO9CscNes)  
+
+[This post is all you need](https://github.com/255-1/PaperRecords/blob/main/PaperRecords.md)
+
+[对比学习综述博客](https://ankeshanand.com/blog/2020/01/26/contrative-self-supervised-learning.html)  
+[[译] Noise Contrastive Estimation](https://zhuanlan.zhihu.com/p/76568362/)    
+[Noise Contrastive Estimation 前世今生——从 NCE 到 InfoNCE](https://zhuanlan.zhihu.com/p/334772391)  
+[理解Contrastive Predictive Coding和NCE Loss](https://zhuanlan.zhihu.com/p/129076690)  
+[超直观无公式图解contrastive predictive coding从脸盲说起](https://zhuanlan.zhihu.com/p/177883526)  
+[浅析Contrastive Predictive Coding](https://zhuanlan.zhihu.com/p/137076811)  
+[真正的无监督学习之一——Contrastive Predictive Coding](https://zhuanlan.zhihu.com/p/75517749)  
+[Representation Learning with Contrastive Predictive Coding](https://zhuanlan.zhihu.com/p/461505149)
+[The Illustrated Word2vec(感觉是对比学习的一些前置任务)](https://jalammar.github.io/illustrated-word2vec/)  
+[对比学习二 | Unsupervised Embedding Learning via Invariant and Spreading Instance Feature](https://zhuanlan.zhihu.com/p/459345219)  
+[DIM作者youtube讲解](https://www.youtube.com/watch?v=o1HIkn8LEsw&t=256s)  
+[DIM理解](https://zhuanlan.zhihu.com/p/277660074)  
+[MINE](https://zhuanlan.zhihu.com/p/113455332)   
+[MINE——基于神经网络的互信息估计器](https://zhuanlan.zhihu.com/p/191155238)  
+[Mutual Information Neural Estimator(MINE)：通过样本有效估计高维连续数据互信息](https://zhuanlan.zhihu.com/p/412538959)  
+[Explanation of Mutual Information Neural Estimation](https://ruihongqiu.github.io/posts/2020/07/mine/)  
+
+## 序列推荐  
++ ##  [Session-Based Recommendations with recurrent neural networks(GRU4Rec)](./Paper/Session-Based_Recommendations_with_recurrent_neural_networks.md)   
+
++ ##  [Disentangled Self-Supervision in Sequential Recommenders](./Paper/Disentangled_Self-Supervision_in_Sequential_Recommenderss.md)  
+
+
+序列推荐看过的内容  
+[序列推荐论文推荐](https://zhuanlan.zhihu.com/p/389044011)
+
+[GRU讲解](https://www.youtube.com/watch?v=T8mGfIy9dWM&t=1952s)
+
