@@ -24,7 +24,7 @@
 **相关工作和理论**： 
 互信息和KL散度之间的关系在上一节已经展示.将KL散度中的联合概率分布写为$P$,边缘概率分布的乘积记为$Q$,将log前的$P$提出来作为期望的抽样方式,则KL散度为下图所示.  
 ![](https://paperrecord.oss-cn-shanghai.aliyuncs.com/202204081321920.PNG)  
-由之前的等式可以看出上式的KL散度越大,则$X$和$Z$之间的依赖就越大.  
+由之前的等式可以看出上式的KL散度越大,则$X$和$Z$之间的MI就越大.  
 所以现在互信息的计算问题等价于计算KL散度的问题, 而KL散度的计算通过一个对偶问题计算DV散度可以得到其下界.  
 ![](https://paperrecord.oss-cn-shanghai.aliyuncs.com/202204081321069.PNG)  
 至于为什么右边这个公式的上确界为KL的下界, 在附录中的推导如下图所示, 引入玻尔兹曼分布$g(x)=\frac{1}{Z}e^{T(x)}q(x)$也就是$dG=\frac{1}{Z}e^{T}dQ$, 另外$T$为一个判别器完成$\Omega\to R$, T就为一个DNN,作者称这个网络为statistics network  
@@ -37,7 +37,7 @@
 作者接着引入了一个比DV弱一点的下界,f散度  
 ![](https://paperrecord.oss-cn-shanghai.aliyuncs.com/202204081322260.PNG)  
 ![](https://paperrecord.oss-cn-shanghai.aliyuncs.com/202204081322613.PNG)  
-接下去作者先引出neural information measure,其中的期望估计可以使用$P_{XZ}$和$P_XP_Z$的抽样或者是在batch上的联合概率分布的shuffling the samples.所谓从联合概率抽样,感觉很抽象, 我根据InstDisc中的了解大致理解是, 什么是联合概率是由人定义的正样本,类似一个pretext task,比如InstDisc中认为一张图片和自己的数据增强为联合概率分布,这个很直觉, 而与之相对的从边缘概率抽样我的理解就是认为定义的认为互信息不足的办法.  
+接下去作者先引出neural information measure,其中的期望估计可以使用$P_{XZ}$和$P_XP_Z$的抽样或者是在batch上的联合概率分布的shuffling the samples.所谓从联合概率抽样,感觉很抽象, 我根据InstDisc中的了解大致理解是, 什么是联合概率是由人定义的正样本,类似一个pretext task,比如InstDisc中认为一张图片和自己的数据增强为联合概率分布,这个很直觉, 而与之相对的从边缘概率抽样我的理解就是认为定义的互信息不足的办法.  
 ![](https://paperrecord.oss-cn-shanghai.aliyuncs.com/202204081322282.PNG)  
 接着作者就正式讲解MINE,
 ![](https://paperrecord.oss-cn-shanghai.aliyuncs.com/202204081323080.PNG)  

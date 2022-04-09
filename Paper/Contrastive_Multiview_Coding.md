@@ -15,7 +15,7 @@
 本文提出了一个对比学习的无监督表征学习的框架.构建的准则是最大化互信息学到强力的特征.并且比起predictive learning表现更好, 并且随着视角的增加有效性在增加.  
 
 **动机**:  
-对于autoencoder来说, 每个bit是平等的, 但是作者认为有些bit在语义,物理意义和几何意义上比起其他bit更加重要. 作者认为一个好的bit是在不同视角下共享的部分,并且能让下游任务完成得更好.比如在Lab色彩模式中就可以把一张图看成一个L视角和ab视角下的成对实例.作者在CPC的基础上做出了简化和推广,去除了RNN并且推广了多视角的情况.
+对于autoencoder来说, 每个bit是平等的, 但是作者认为有些bit在语义,物理意义和几何意义上比起其他bit更加重要. 作者认为一个好的bit是在不同视角下共享的部分,并且能让下游任务完成得更好.比如在Lab色彩模式中就可以把一张图看成一个L视角和ab视角下的成对实例.作者在CPC的基础上做出了简化和推广,去除了自回归部分的RNN并且推广了多视角的情况.
        
 **相关工作和理论**： 
 作者认为自己对[CPC](./Representation_Learning_with_Constrastive_Predictive_Coding.md), DeepInfoMax, [InstDisc](./Unsupervised_Feature_Learning_via_Non-Parametric_Instance_Discrimination.md)的改进:  
@@ -57,3 +57,4 @@ CPC,个体判别都和这篇文章很像,但在视角的选取上又有所不同
 
 **备注**:  
 
+$$

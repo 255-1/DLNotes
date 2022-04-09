@@ -30,7 +30,7 @@ $I_e(X, Y) = H_e(X) - H_e(X|Y) \geq H_e(X) - R_{e,d}(X|Y)$
 
 接着开始介绍DeepInfoMax   
 ![](https://paperrecord.oss-cn-shanghai.aliyuncs.com/202204081315707.PNG)  
-$x$ 表示原始图像， $f_\psi(x)$表示经过卷积层输出的$M * M$的 feature map，而 $y=h_\psi (f_\psi(x))=E_\psi{(x)}$则为经过全连接层之后最终的 feature vector（也可以理解为图像的一种 representation, 论文中作者说的是把feature map的求和得到），再将这个 representation 应用于一些下游任务. 
+$x$ 表示原始图像， $f_\psi(x)$表示经过卷积层输出的$M \times M$的 feature map，而 $y=h_\psi (f_\psi(x))=E_\psi{(x)}$则为经过全连接层之后最终的 feature vector（也可以理解为图像的一种 representation, 论文中作者说的是把feature map的求和得到），再将这个 representation 应用于一些下游任务. 
 而 DIM 的整体思路如下图，也就是用图片encode后得到的representation, 与同一张图片的 feature map 组成正样本对，和另一张图片的 feature map 组成负样本对，然后训练一个 Discriminator 来区分这两中样本对.  
 ![](https://paperrecord.oss-cn-shanghai.aliyuncs.com/202204081315575.PNG)  
 DIM的终极目标就是两点
@@ -38,7 +38,7 @@ DIM的终极目标就是两点
 - 最大化$f_\psi(x)$和Y也就是feature map和feature vector之间的MI,这又分为global和local两种
 - 在最终的 representation 中再加入一个统计性的约束，使得到的$y$的分布（push-forward distribution） $Q_{\psi,X}$尽量与先验分布$Q_{prior}$相匹配
 
-对于最大化MI,就需要写出loss, 对于$X,Y$如果他们相互独立则互信息为0,并且$P_{XY} = P_XP_Y$, 互信息的定义如下  
+对于1)中最大化MI,就需要写出loss, 对于$X,Y$如果他们相互独立则互信息为0,并且$P_{XY} = P_XP_Y$, 互信息的定义如下  
 $I(X;Y) = \sum_{X,Y}P(X,Y)log\frac{P(X|Y)}{P(X)}$ 并且由此可以推得下图得KL散度公式, 可以用来衡量联合分布和独立分布得关联性, 所以互信息越大越好.
 ![](https://paperrecord.oss-cn-shanghai.aliyuncs.com/202204081316729.PNG)  
 首先介绍global MI的情况,互信息没法精确计算,但是有一些方法对其进行了估计, 比如MINE找到了其下界$\hat{I}^{(DV)}_\omega$,$P(X,Y)$为来自同一张图片, $P(X)P(Y)$为来自不同图片, 所以要最大化这个下界就要最大化前者, 最小化后者   
@@ -66,7 +66,7 @@ $I(X;Y) = \sum_{X,Y}P(X,Y)log\frac{P(X|Y)}{P(X)}$ 并且由此可以推得下图
 接下去要限制先验概率,因为
 若学习到的隐变量服从标准正态分布的先验分布，这有利于使得编码空间更加规整，甚至有利于解耦特征，便于后续学习。因此，在 DIM 中，作者同样希望加上这个约束.  鉴别器的目标是区分 representation 分布的真伪（即是否符合先验分布），而编码器则是尽量欺骗判别器，输出更符合先验分布的 representation.  
 具体做法是,训练一个鉴别器$D_\varPhi$, 我们需要学习到一种representation,来让这个鉴别器$D_\varPhi$, 确信其是否来自先验分布$Q_{prior}$  
-鉴别器的损失函数如下所示,作者在实验中发现这里用均匀分布比高斯分布效果更好  
+鉴别器的损失函数如下所示(这里有待深化理解),作者在实验中发现这里用均匀分布比高斯分布效果更好  
 ![](https://paperrecord.oss-cn-shanghai.aliyuncs.com/202204081318464.PNG)  
 
 最后DIM的最终目标就是把上述三个目标放到一起, 如下:  

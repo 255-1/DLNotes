@@ -30,7 +30,7 @@ $f_k(x_{t+k}, c_t) = exp(z^T_{t+k}W_kc_t)$
 由此得到了NCE这里叫做InfoNCE,如下图公式所示:  
 ![InfoNCE](https://paperrecord.oss-cn-shanghai.aliyuncs.com/202204081324482.PNG)  
 减小InfoNCE就是增加log中的内容,就是增大分子减小分母, 增大就是增加相关性$f_k$,从而增加密度比,从而增大互信息.符合预期目标.
-正样本来自条件概率分布的而不是来自先验概率分布的概率推导如下(原有来自[InvaSpread](./Unsupervised_Embedding_Learning_via_Invariant_and_Spreading_Instance_Feature.md)):  
+正样本来自条件概率分布的而不是来自先验概率分布的概率推导如下(缘由参考[InvaSpread](./Unsupervised_Embedding_Learning_via_Invariant_and_Spreading_Instance_Feature.md)):  
 ![InfoNCE](https://paperrecord.oss-cn-shanghai.aliyuncs.com/202204081324145.PNG)  
 由此得到的结果和前面的NCE的极大似然估计公式很像,所以这里认为$f_k$和密度比是成比例的.
 
@@ -38,7 +38,7 @@ encoder可以使用许多,作者用了renet block的 strided convolutional layer
 **实验结果**:  
 作者在音频,视觉,自然语言处理和强化学习领域做了一系列的对比实验. 等到需要复现的时候再来补充这一段内容.反正现在就是厉害就完了.
 **个人总结**： 
-以我现在就看过两篇对比学习的论文猜测,这篇文章提出了互信息用在对比学习可以用,并且用了提出了一系列的简化用法. 之前我看互信息是在一篇DeepInfoMax中,估计不是用在对比学习领域,蛮难的文章,通过看别知乎的文章和google一些讨论才对文章稍微理解了一点(具体见论文目录中展示的看过的内容).  
+以我现在就看过两篇对比学习的论文猜测,这篇文章提出了互信息用在对比学习可以用,并且用了提出了一系列的简化用法. 之前我看互信息是在一篇DeepInfoMax中,估计不是用在对比学习领域,CPC还是蛮难的文章,通过看别知乎的文章和google一些讨论才对文章稍微理解了一点(具体见论文目录中展示的看过的内容).  
 **备注**:  
 1)所谓mutual information就是引入了一个额外变量c使得x的变量的熵变低, 让x的确定性增加.  
     ![](https://paperrecord.oss-cn-shanghai.aliyuncs.com/202204081323769.svg)  

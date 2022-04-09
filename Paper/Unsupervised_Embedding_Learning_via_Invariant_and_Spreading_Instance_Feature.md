@@ -47,7 +47,7 @@ $P_i=P(i|\hat{x}_i)\prod_{j\neq i}(1-P(i|x_j))$(Eq.5)
 $J_i=-logP(i|\hat{x}_i)-\sum_{j\neq i}log(1-P(i|x_j))$(Eq.6)  
 Eq6只是一个instance的计算,则整体的Loss function计算为:  
 $J_i=-\sum_{i}logP(i|\hat{x}_i)-\sum_i{}\sum_{j\neq i}log(1-P(i|x_j))$(Eq.7)  
-对于Eq.6中的之子前面的log里面为Eq.3, 后面的log里面为Eq.4的式子,最小化Eq.6需要最大化Eq.3最小化Eq.4从而完成了减小正样本的距离,增大和负样本的距离的目标.  
+对于Eq.6中前面的log里面为Eq.3, 后面的log里面为Eq.4的式子,最小化Eq.6需要最大化Eq.3最小化Eq.4从而完成了减小正样本的距离,增大和负样本的距离的目标.  
 
 **实验结果**:  
 等到复现的时候回来补  

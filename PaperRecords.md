@@ -2,15 +2,15 @@
 
 ## 对比学习
 
-+ ##  [Unsupervised Feature Learning via non-Parametric Instance Discrimination(InstDisc)](./Paper/Unsupervised_Feature_Learning_via_Non-Parametric_Instance_Discrimination.md)  
++ ##  [Unsupervised Feature Learning via non-Parametric Instance Discrimination(InstDisc)](./Paper/Unsupervised_Feature_Learning_via_Non-Parametric_Instance_Discrimination.md)
 
 + ##  [Unsupervised Embedding Learning via Invariant and Spreading Instance Feature(InvaSpread)](./Paper/Unsupervised_Embedding_Learning_via_Invariant_and_Spreading_Instance_Feature.md) 
 
  
 
-+ ##  [Representation Learning with Contrastive Predictive Coding(CPC)](./Paper/Representation_Learning_with_Constrastive_Predictive_Coding.md) 
++ ##  [Representation Learning with Contrastive Predictive Coding(CPC)](./Paper/Representation_Learning_with_Constrastive_Predictive_Coding.md)
 
-+ ##  [Contrastive Multiview Coding(CMC)](./Paper/Contrastive_Multiview_Coding.md)  
++ ##  [Contrastive Multiview Coding(CMC)](./Paper/Contrastive_Multiview_Coding.md)
   
 + ##  [Learning deep representations by mutual information estimation and maximization(DeepInfoMax)](./Paper/Learning_deep_representations_by_mutual_information_estimation_and_maximization.md)  
 
@@ -34,7 +34,7 @@
 [超直观无公式图解contrastive predictive coding从脸盲说起](https://zhuanlan.zhihu.com/p/177883526)  
 [浅析Contrastive Predictive Coding](https://zhuanlan.zhihu.com/p/137076811)  
 [真正的无监督学习之一——Contrastive Predictive Coding](https://zhuanlan.zhihu.com/p/75517749)  
-[Representation Learning with Contrastive Predictive Coding](https://zhuanlan.zhihu.com/p/461505149)
+[Representation Learning with Contrastive Predictive Coding](https://zhuanlan.zhihu.com/p/461505149)  
 [The Illustrated Word2vec(感觉是对比学习的一些前置任务)](https://jalammar.github.io/illustrated-word2vec/)  
 [对比学习二 | Unsupervised Embedding Learning via Invariant and Spreading Instance Feature](https://zhuanlan.zhihu.com/p/459345219)  
 [DIM作者youtube讲解](https://www.youtube.com/watch?v=o1HIkn8LEsw&t=256s)  
