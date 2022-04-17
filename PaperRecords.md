@@ -18,7 +18,7 @@
 
 + ##  [Momentum Contrast for Unsupervised Visual Representation Learning(Moco)](./Paper/Momentum_Contrast_for_Unsupervised_Visual_Representation_Learning.md)
 
-对比学习看过的内容  
+对比学习有价值的内容  
 [李沐Transformer](https://www.bilibili.com/video/BV1pu411o7BE/?spm_id_from=333.788)  
 [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
 [李沐Moco](https://www.bilibili.com/video/BV1C3411s7t9/?spm_id_from=333.788)  
@@ -32,8 +32,14 @@
 [Noise Contrastive Estimation 前世今生——从 NCE 到 InfoNCE](https://zhuanlan.zhihu.com/p/334772391)  
 [理解Contrastive Predictive Coding和NCE Loss](https://zhuanlan.zhihu.com/p/129076690)  
 [超直观无公式图解contrastive predictive coding从脸盲说起](https://zhuanlan.zhihu.com/p/177883526)  
-[浅析Contrastive Predictive Coding](https://zhuanlan.zhihu.com/p/137076811)  
-[真正的无监督学习之一——Contrastive Predictive Coding](https://zhuanlan.zhihu.com/p/75517749)  
+[浅析Contrastive Predictive Coding](https://zhuanlan.zhihu.com/p/137076811)    
+
+[对 CPC (对比预测编码) 的理解](https://zhuanlan.zhihu.com/p/317711322)
+
+[真正的无监督学习之一——Contrastive Predictive Coding](https://zhuanlan.zhihu.com/p/75517749)    
+
+[NCE的配分函数解释](https://kexue.fm/archives/5617/comment-page-1)
+
 [Representation Learning with Contrastive Predictive Coding](https://zhuanlan.zhihu.com/p/461505149)  
 [The Illustrated Word2vec(感觉是对比学习的一些前置任务)](https://jalammar.github.io/illustrated-word2vec/)  
 [对比学习二 | Unsupervised Embedding Learning via Invariant and Spreading Instance Feature](https://zhuanlan.zhihu.com/p/459345219)  
@@ -47,10 +53,13 @@
 ## 序列推荐  
 + ##  [Session-Based Recommendations with recurrent neural networks(GRU4Rec)](./Paper/Session-Based_Recommendations_with_recurrent_neural_networks.md)   
 
-+ ##  [Disentangled Self-Supervision in Sequential Recommenders](./Paper/Disentangled_Self-Supervision_in_Sequential_Recommenderss.md)  
++ ##  [Disentangled Self-Supervision in Sequential Recommenders](./Paper/Disentangled_Self-Supervision_in_Sequential_Recommenderss.md)
 
++ ## [Recurrent Neural Networks with Top-k Gains for Session-based Recommendations](./Paper/Recurrent_Neural_Networks_with_Top-k_Gains_for_Session-based_Recommendations.md)
 
-序列推荐看过的内容  
+  
+
+序列推荐有价值的内容  
 [序列推荐论文推荐](https://zhuanlan.zhihu.com/p/389044011)
 
 [GRU讲解](https://www.youtube.com/watch?v=T8mGfIy9dWM&t=1952s)
