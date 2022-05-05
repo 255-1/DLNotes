@@ -23,7 +23,7 @@
 2)  对不同的视图定义, 体系结构和应用程序设置  
 3)  对表征学习方式进行了独特的研究  
 
-首先介绍predictive learning(如下图的上半部分)如autoencoder, 它希望最后输出的 $\hat{v_2} $ 能尽可能的接近$v_2$,这种目标提前假定每个像素或者元素之间相互独立,并且 loss是在output空间上做, 并不能直接优化特征$z$, 常用的loss function(如L1, L2)是非结构性的, 而对比学习的loss是直接作用在特征空间中, 直接对特征的一致性和非一致性进行学习.所以认为效果会比predictive learning好. 
+首先介绍predictive learning(如下图的上半部分)如autoencoder, 它希望最后输出的 $\hat{v_2} $ 能尽可能的接近$v_2$,这种目标提前假定每个像素或者元素之间相互独立,并且 loss是在output空间上做, 并不能直接优化特征$z$, 常用的loss function(如L1, L2)是非结构性的, 而对比学习的loss是直接作用在特征空间中, 直接对特征的一致性和非一致性进行学习.所以认为学习到的特征的效果会比predictive learning好. 
 ![](https://paperrecord.oss-cn-shanghai.aliyuncs.com/202204081305142.PNG)  
 
 作者接下来首先介绍的是双视角情况下的计算,作者认为样本$x \backsim p(v_1, v_2)$或样本对 $x={\{v_1^i, v_2^i\}}$为正样本, 对于$y \backsim p(v_1)p(v_2)$或样本对$x={\{v_1^i, v_2^j\}}$为负样本, 应该是认为相关的内容为正,如果是独立分布的情况下就认为是负样本, 这样可以让互信息尽量大. 设定判别标准为$h_\theta(\cdot)$, 样本为$S={x, y_1, y_2, ....,y_k}$,则loss function如下图所示, 具体理解在之前的[InstDic](./Unsupervised_Feature_Learning_via_Non-Parametric_Instance_Discrimination.md)有过,这里看着很好理解. 

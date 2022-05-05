@@ -12,7 +12,7 @@
 
 + ##  [Contrastive Multiview Coding(CMC)](./Paper/Contrastive_Multiview_Coding.md)
   
-+ ##  [Learning deep representations by mutual information estimation and maximization(DeepInfoMax)](./Paper/Learning_deep_representations_by_mutual_information_estimation_and_maximization.md)  
++ ##  [Learning deep representations by mutual information estimation and maximization(DeepInfoMax)](./Paper/Learning_deep_representations_by_mutual_information_estimation_and_maximization.md)
 
 + ##  [Mutual Information Neural Estimation(MINE)](./Paper/Mutual_Information_Neural_Estimation.md)  
 
@@ -50,12 +50,17 @@
 [Mutual Information Neural Estimator(MINE)：通过样本有效估计高维连续数据互信息](https://zhuanlan.zhihu.com/p/412538959)  
 [Explanation of Mutual Information Neural Estimation](https://ruihongqiu.github.io/posts/2020/07/mine/)  
 
-## 序列推荐  
+[对比学习（Contrastive Learning）:研究进展精要](https://zhuanlan.zhihu.com/p/367290573)
+
+## 序列推荐
+
 + ##  [Session-Based Recommendations with recurrent neural networks(GRU4Rec)](./Paper/Session-Based_Recommendations_with_recurrent_neural_networks.md)   
 
 + ##  [Disentangled Self-Supervision in Sequential Recommenders](./Paper/Disentangled_Self-Supervision_in_Sequential_Recommenderss.md)
 
 + ## [Recurrent Neural Networks with Top-k Gains for Session-based Recommendations](./Paper/Recurrent_Neural_Networks_with_Top-k_Gains_for_Session-based_Recommendations.md)
+
++ ## [Neural Attentive Session-based Recommendation](./Paper/Neural_Attentive_Session-based_Recommendation.md)
 
   
 
@@ -63,4 +68,16 @@
 [序列推荐论文推荐](https://zhuanlan.zhihu.com/p/389044011)
 
 [GRU讲解](https://www.youtube.com/watch?v=T8mGfIy9dWM&t=1952s)
+
+[推荐中的序列化建模：Session-based neural recommendation](https://zhuanlan.zhihu.com/p/30720579)
+
+[Neural-Attentive-Session-Based-Recommendation](https://www.jianshu.com/p/7c0cc424d06c)
+
+
+
+其他值得一读的文章  
+
+[研究推荐系统要对NLP很了解吗？](https://www.zhihu.com/question/317441966)  
+
+[少数派报告：谈推荐场景下的对比学习](https://zhuanlan.zhihu.com/p/435903339)
 
