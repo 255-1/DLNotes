@@ -1,4 +1,4 @@
-+ ***[Neural Attentive Session-based Recommendation](https://arxiv.org/abs/1711.04725v1)***   
++ ***[Neural Attentive Session-based Recommendation(NARM)](https://arxiv.org/abs/1711.04725v1)***   
 
 ![](https://paperrecord.oss-cn-shanghai.aliyuncs.com/202205051431748.PNG)
 
