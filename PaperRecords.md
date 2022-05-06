@@ -64,7 +64,7 @@
 
 + ## [Personalizing Session-based Recommendations with Hierarchical Recurrent Neural Networks(HRNN)](./Paper/Personalizing_Session-based_Recommendations_with_Hierarchical_Recurrent_Neural_Networks.md)
 
-  
++ ## [Self-Attentive Sequential Recommendation(SASRec)](./Paper/Self-Attentive_Sequential_Recommendation.md)
 
 序列推荐有价值的内容  
 [序列推荐论文推荐](https://zhuanlan.zhihu.com/p/389044011)
