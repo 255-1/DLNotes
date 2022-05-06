@@ -1,4 +1,4 @@
-+ ***[Self-Attentive Sequential Recommendation](https://arxiv.org/abs/1808.09781)***   
++ ***[Self-Attentive Sequential Recommendation(SASRec)](https://arxiv.org/abs/1808.09781)***   
 
 <img src="https://paperrecord.oss-cn-shanghai.aliyuncs.com/202205061429734.PNG" style="zoom:50%;" />
 
