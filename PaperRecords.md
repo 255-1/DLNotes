@@ -66,6 +66,8 @@
 
 + ## [Self-Attentive Sequential Recommendation(SASRec)](./Paper/Self-Attentive_Sequential_Recommendation.md)
 
++ ## [STAMP: Short-Term Attention/Memory Priority Model for Session-based Recommendation](./Paper/STAMP.md)
+
 序列推荐有价值的内容  
 [序列推荐论文推荐](https://zhuanlan.zhihu.com/p/389044011)
 
