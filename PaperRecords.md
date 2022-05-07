@@ -68,6 +68,8 @@
 
 + ## [STAMP: Short-Term Attention/Memory Priority Model for Session-based Recommendation](./Paper/STAMP.md)
 
++ ## [BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer](./Paper/BERT4Rec.md)
+
 序列推荐有价值的内容  
 [序列推荐论文推荐](https://zhuanlan.zhihu.com/p/389044011)
 
