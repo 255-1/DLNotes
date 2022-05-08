@@ -70,6 +70,8 @@
 
 + ## [BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer](./Paper/BERT4Rec.md)
 
++ ## [Feature-level Deeper Self-Attention Network for Sequential Recommendation(FDSA)](./Paper/FDSA.md)
+
 序列推荐有价值的内容  
 [序列推荐论文推荐](https://zhuanlan.zhihu.com/p/389044011)
 
