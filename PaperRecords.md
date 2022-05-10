@@ -83,6 +83,24 @@
 
 
 
+## GNN
+
+gnn值得一读的内容
+
+[李宏毅助教](https://www.bilibili.com/video/BV1G54y1971S?spm_id_from=333.337.search-card.all.click)  
+
+[李沐GNN](https://www.bilibili.com/video/BV1iT4y1d7zP?spm_id_from=333.337.search-card.all.click)
+
+[distill博客](https://distill.pub/2021/gnn-intro/)
+
+[如何理解 Graph Convolutional Network ](https://www.zhihu.com/question/54504471/answer/332657604)
+
+[图卷积神经网络(Graph Convolutional Network, GCN)](https://blog.csdn.net/a358463121/article/details/88921154)
+
+[谱图理论(spectral graph theory)](https://blog.csdn.net/a358463121/article/details/100166818)
+
+[Spectral graph theory](https://en.wikipedia.org/wiki/Spectral_graph_theory)
+
 其他值得一读的文章  
 
 [研究推荐系统要对NLP很了解吗？](https://www.zhihu.com/question/317441966)  
