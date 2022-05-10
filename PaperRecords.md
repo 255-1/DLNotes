@@ -20,12 +20,14 @@
 
 对比学习有价值的内容  
 [李沐Transformer](https://www.bilibili.com/video/BV1pu411o7BE/?spm_id_from=333.788)  
-[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)  
 [李沐Moco](https://www.bilibili.com/video/BV1C3411s7t9/?spm_id_from=333.788)  
 [对比学习综述](https://www.bilibili.com/video/BV19S4y1M7hm/?spm_id_from=333.788)  
-[self-attention入门](https://www.youtube.com/watch?v=hYdO9CscNes)  
+[self-attention入门](https://www.youtube.com/watch?v=hYdO9CscNes)    
 
-[This post is all you need](https://github.com/255-1/PaperRecords/blob/main/PaperRecords.md)
+[超详细图解Self-Attention](https://zhuanlan.zhihu.com/p/410776234)  
+
+[This post is all you need](https://github.com/255-1/PaperRecords/blob/main/PaperRecords.md)  
 
 [对比学习综述博客](https://ankeshanand.com/blog/2020/01/26/contrative-self-supervised-learning.html)  
 [[译] Noise Contrastive Estimation](https://zhuanlan.zhihu.com/p/76568362/)    
