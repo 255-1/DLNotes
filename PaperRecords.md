@@ -4,9 +4,7 @@
 
 + ##  [Unsupervised Feature Learning via non-Parametric Instance Discrimination(InstDisc)](./Paper/Unsupervised_Feature_Learning_via_Non-Parametric_Instance_Discrimination.md)
 
-+ ##  [Unsupervised Embedding Learning via Invariant and Spreading Instance Feature(InvaSpread)](./Paper/Unsupervised_Embedding_Learning_via_Invariant_and_Spreading_Instance_Feature.md) 
-
- 
++ ##  [Unsupervised Embedding Learning via Invariant and Spreading Instance Feature(InvaSpread)](./Paper/Unsupervised_Embedding_Learning_via_Invariant_and_Spreading_Instance_Feature.md)
 
 + ##  [Representation Learning with Contrastive Predictive Coding(CPC)](./Paper/Representation_Learning_with_Constrastive_Predictive_Coding.md)
 
@@ -86,6 +84,8 @@
 
 
 ## GNN
+
+- ## [Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering(GCN)](./Paper/GCN.md)
 
 gnn值得一读的内容
 
