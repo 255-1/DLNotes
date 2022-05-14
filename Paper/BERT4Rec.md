@@ -1,4 +1,4 @@
-+ ***[BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer](https://arxiv.org/abs/1904.12058)***   
++ ***[BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer](https://arxiv.org/abs/1904.06690)***   
 
 <img src="https://paperrecord.oss-cn-shanghai.aliyuncs.com/202205071547269.PNG" style="zoom:55%;" />
 

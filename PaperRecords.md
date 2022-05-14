@@ -95,13 +95,17 @@ gnn值得一读的内容
 
 [distill博客](https://distill.pub/2021/gnn-intro/)
 
-[如何理解 Graph Convolutional Network ](https://www.zhihu.com/question/54504471/answer/332657604)
+[如何理解 Graph Convolutional Network -superbrohter](https://www.zhihu.com/question/54504471/answer/332657604)
 
-[图卷积神经网络(Graph Convolutional Network, GCN)](https://blog.csdn.net/a358463121/article/details/88921154)
+[GCN (Graph Convolutional Network) 图卷积网络解析](https://blog.csdn.net/weixin_36474809/article/details/89316439)
 
-[谱图理论(spectral graph theory)](https://blog.csdn.net/a358463121/article/details/100166818)
+[如何理解拉普拉斯变换？](https://www.matongxue.com/madocs/723/)
 
-[Spectral graph theory](https://en.wikipedia.org/wiki/Spectral_graph_theory)
+~~[图卷积神经网络(Graph Convolutional Network, GCN)](https://blog.csdn.net/a358463121/article/details/88921154)~~
+
+~~[谱图理论(spectral graph theory)](https://blog.csdn.net/a358463121/article/details/100166818)~~
+
+~~[Spectral graph theory](https://en.wikipedia.org/wiki/Spectral_graph_theory)~~
 
 其他值得一读的文章  
 
