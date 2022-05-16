@@ -1,4 +1,4 @@
-# 论文笔记  
+# 论文笔记
 
 ## 对比学习
 
@@ -86,6 +86,8 @@
 ## GNN
 
 - ## [Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering(GCN)](./Paper/GCN.md)
+
+- ## [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS](./Paper/Semi_GCN.md)
 
 gnn值得一读的内容
 
