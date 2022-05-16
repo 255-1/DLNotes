@@ -89,6 +89,8 @@
 
 - ## [SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS](./Paper/Semi_GCN.md)
 
+- ## [GRAPH ATTENTION NETWORKS(GAT)](./Paper/GAT.md)
+
 gnn值得一读的内容
 
 [李宏毅助教](https://www.bilibili.com/video/BV1G54y1971S?spm_id_from=333.337.search-card.all.click)  
@@ -97,7 +99,7 @@ gnn值得一读的内容
 
 [distill博客](https://distill.pub/2021/gnn-intro/)
 
-[如何理解 Graph Convolutional Network -superbrohter](https://www.zhihu.com/question/54504471/answer/332657604)
+[如何理解 Graph Convolutional Network -superbrohter-日智](https://www.zhihu.com/question/54504471/answer/332657604)
 
 [GCN (Graph Convolutional Network) 图卷积网络解析](https://blog.csdn.net/weixin_36474809/article/details/89316439)
 
