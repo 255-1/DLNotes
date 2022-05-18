@@ -141,6 +141,12 @@ gnn值得一读的内容
 
 
 
+## GNN+序列推荐
+
+- ## [Session-based Recommendation with Graph Neural Networks(SR-GNN)](./Paper/SRGNN.md)
+
+
+
 其他值得一读的文章  
 
 [研究推荐系统要对NLP很了解吗？](https://www.zhihu.com/question/317441966)  
