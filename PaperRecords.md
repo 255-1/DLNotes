@@ -1,6 +1,6 @@
 # 论文笔记
 
-## 对比学习
+## 对比学习基础
 
 + ##  [Unsupervised Feature Learning via non-Parametric Instance Discrimination(InstDisc)](./Paper/Unsupervised_Feature_Learning_via_Non-Parametric_Instance_Discrimination.md)
 
@@ -60,7 +60,7 @@
 
 [对比学习（Contrastive Learning）:研究进展精要](https://zhuanlan.zhihu.com/p/367290573)
 
-## 序列推荐
+## 序列推荐基础
 
 + ##  [Session-Based Recommendations with recurrent neural networks(GRU4Rec)](./Paper/Session-Based_Recommendations_with_recurrent_neural_networks.md)   
 
@@ -101,7 +101,7 @@
 
 
 
-## GNN
+## GNN基础
 
 - ## [Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering(GCN)](./Paper/GCN.md)
 
@@ -144,6 +144,8 @@ gnn值得一读的内容
 ## GNN+序列推荐
 
 - ## [Session-based Recommendation with Graph Neural Networks(SR-GNN)](./Paper/SRGNN.md)
+
+- ## [GATED GRAPH SEQUENCE NEURAL NETWORKS(GGNN)](./Paper/GGNN.md)
 
 
 
