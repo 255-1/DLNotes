@@ -147,7 +147,11 @@ gnn值得一读的内容
 
 - ## [GATED GRAPH SEQUENCE NEURAL NETWORKS(GGNN)](./Paper/GGNN.md)
 
+## GNN+CF
 
+- ## [Neural Graph Collaborative Filtering(NGCF)](./Paper/NGCF.md)
+
+- ## [LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation](./Paper/LightGCN.md)
 
 其他值得一读的文章  
 
