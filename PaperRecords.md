@@ -1,9 +1,5 @@
 # 论文笔记
 
-## 综述
-
-- ## [Toward the next generation of recommender systems: a survey of the state-of-the-art and possible extensions](./Paper/Toward_the_next_generation_of_recommender_systems_a_survey_of_the_state-of-the-art_and_possible_extensions.md)
-
 ## 对比学习基础
 
 + ##  [Unsupervised Feature Learning via non-Parametric Instance Discrimination(InstDisc)](./Paper/Unsupervised_Feature_Learning_via_Non-Parametric_Instance_Discrimination.md)
@@ -66,7 +62,7 @@
 
 ## 序列推荐基础
 
-+ ##  [Session-Based Recommendations with recurrent neural networks(GRU4Rec)](./Paper/Session-Based_Recommendations_with_recurrent_neural_networks.md)   
++ ##  [Session-Based Recommendations with recurrent neural networks(GRU4Rec)](./Paper/Session-Based_Recommendations_with_recurrent_neural_networks.md)
 
 + ##  [Disentangled Self-Supervision in Sequential Recommenders](./Paper/Disentangled_Self-Supervision_in_Sequential_Recommenderss.md)
 
@@ -156,6 +152,12 @@ gnn值得一读的内容
 - ## [Neural Graph Collaborative Filtering(NGCF)](./Paper/NGCF.md)
 
 - ## [LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation](./Paper/LightGCN.md)
+
+## 综述
+
+## [Toward the next generation of recommender systems: a survey of the state-of-the-art and possible extensions](./Paper/Toward_the_next_generation_of_recommender_systems_a_survey_of_the_state-of-the-art_and_possible_extensions.md))
+
+
 
 其他值得一读的文章  
 
