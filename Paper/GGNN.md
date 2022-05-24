@@ -32,7 +32,7 @@ $f$函数可以通过一个linear transform用nn学习, 对于入度的情况,�
 
 ![](https://paperrecord.oss-cn-shanghai.aliyuncs.com/202205201715917.PNG)
 
-接着作者介绍GNN的输出模型和学习, 输出模型主要是学习$g(\bold h_v, l_v)$, GNN中专注于收敛时候的每个节点的独立特征$h_v^{(T)}$, 对于readout的获取(graph-level)可以创造一个不存在的超节点通过特殊边和所有节点相连. 对于模型的学习通过Almeida-Pineda algorithm(备注1) ,这种办法迭代固定点来讲隐藏状态收敛,但是对初始条件要求高, 需要是压缩映射.
+接着作者介绍GNN的输出模型和学习, 输出模型主要是学习$g(\bold h_v, l_v)$, GNN中专注于收敛时候的每个节点的独立特征$h_v^{(T)}$, 对于readout的获取(graph-level)可以创造一个不存在的超节点通过特殊边和所有节点相连. 对于模型的学习通过Almeida-Pineda algorithm(备注) ,这种办法迭代固定点来讲隐藏状态收敛,但是对初始条件要求高, 需要是压缩映射.
 
 接着作者提出了本文的重点GGNN, 将GRU用于上述的GNN中, 将之前学习的时间步固定为$T$,而不是一直学到收敛,使用BPTT(backpropagation through time)学习梯度,
 

@@ -143,9 +143,9 @@ gnn值得一读的内容
 
 ## GNN+序列推荐
 
-- ## [Session-based Recommendation with Graph Neural Networks(SR-GNN)](./Paper/SRGNN.md)
-
 - ## [GATED GRAPH SEQUENCE NEURAL NETWORKS(GGNN)](./Paper/GGNN.md)
+
+- ## [Session-based Recommendation with Graph Neural Networks(SR-GNN)](./Paper/SRGNN.md)
 
 ## GNN+CF
 
