@@ -64,8 +64,6 @@
 
 + ##  [Session-Based Recommendations with recurrent neural networks(GRU4Rec)](./Paper/Session-Based_Recommendations_with_recurrent_neural_networks.md)
 
-+ ##  [Disentangled Self-Supervision in Sequential Recommenders](./Paper/Disentangled_Self-Supervision_in_Sequential_Recommenderss.md)
-
 + ## [Recurrent Neural Networks with Top-k Gains for Session-based Recommendations](./Paper/Recurrent_Neural_Networks_with_Top-k_Gains_for_Session-based_Recommendations.md)
 
 + ## [Neural Attentive Session-based Recommendation(NARM)](./Paper/Neural_Attentive_Session-based_Recommendation.md)
@@ -77,6 +75,8 @@
 + ## [STAMP: Short-Term Attention/Memory Priority Model for Session-based Recommendation](./Paper/STAMP.md)
 
 + ## [BERT4Rec: Sequential Recommendation with Bidirectional Encoder Representations from Transformer](./Paper/BERT4Rec.md)
+
++ ## [Disentangled Self-Supervision in Sequential Recommenders](./Paper/Disentangled_Self-Supervision_in_Sequential_Recommenderss.md)
 
 + ## [Feature-level Deeper Self-Attention Network for Sequential Recommendation(FDSA)](./Paper/FDSA.md)
 
@@ -155,7 +155,7 @@ gnn值得一读的内容
 
 ## 综述
 
-## [Toward the next generation of recommender systems: a survey of the state-of-the-art and possible extensions](./Paper/Toward_the_next_generation_of_recommender_systems_a_survey_of_the_state-of-the-art_and_possible_extensions.md))
+## [Toward the next generation of recommender systems: a survey of the state-of-the-art and possible extensions](./Paper/Toward_the_next_generation_of_recommender_systems_a_survey_of_the_state-of-the-art_and_possible_extensions.md)
 
 
 
