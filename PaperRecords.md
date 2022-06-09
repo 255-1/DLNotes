@@ -153,6 +153,18 @@ gnn值得一读的内容
 
 - ## [LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation](./Paper/LightGCN.md)
 
+## GNN+推荐
+
+- ## [Graph Convolutional Neural Networks for Web-Scale Recommender Systems(PinSage)](./Paper/PinSage.md)
+
+[负样本为王：评Facebook的向量化召回算法](https://zhuanlan.zhihu.com/p/165064102)
+
+[PinSAGE 召回模型及源码分析(1): PinSAGE 简介](https://zhuanlan.zhihu.com/p/275942839)
+
+[PinSage：GCN在商业推荐系统首次成功应用](https://zhuanlan.zhihu.com/p/63214411)
+
+
+
 ## 综述
 
 ## [Toward the next generation of recommender systems: a survey of the state-of-the-art and possible extensions](./Paper/Toward_the_next_generation_of_recommender_systems_a_survey_of_the_state-of-the-art_and_possible_extensions.md)
