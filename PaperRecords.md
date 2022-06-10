@@ -66,6 +66,8 @@
 
 + ## [Recurrent Neural Networks with Top-k Gains for Session-based Recommendations](./Paper/Recurrent_Neural_Networks_with_Top-k_Gains_for_Session-based_Recommendations.md)
 
++ ## [Personalized Top-N Sequential Recommendation via Convolutional Sequence Embedding(Caser)](./Paper/Caser.md)
+
 + ## [Neural Attentive Session-based Recommendation(NARM)](./Paper/Neural_Attentive_Session-based_Recommendation.md)
 
 + ## [Personalizing Session-based Recommendations with Hierarchical Recurrent Neural Networks(HRNN)](./Paper/Personalizing_Session-based_Recommendations_with_Hierarchical_Recurrent_Neural_Networks.md)
