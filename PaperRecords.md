@@ -60,9 +60,11 @@
 
 [对比学习（Contrastive Learning）:研究进展精要](https://zhuanlan.zhihu.com/p/367290573)
 
-## 序列推荐基础
+## 序列推荐
 
 + ##  [Session-Based Recommendations with recurrent neural networks(GRU4Rec)](./Paper/Session-Based_Recommendations_with_recurrent_neural_networks.md)
+
++ ## [Improved Recurrent Neural Networks for Session-based Recommendations](./Paper/ImprovedGRU4Rec.md)
 
 + ## [Recurrent Neural Networks with Top-k Gains for Session-based Recommendations](./Paper/Recurrent_Neural_Networks_with_Top-k_Gains_for_Session-based_Recommendations.md)
 
