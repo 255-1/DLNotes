@@ -153,6 +153,8 @@ gnn值得一读的内容
 
 - ## [Graph Contextualized Self-Attention Network for Session-based Recommendation(GC-SAN)](./Paper/GC-SAN.md)
 
+- ## [Rethinking the Item Order in Session-based Recommendation with Graph Neural Networks(FGNN)](./Paper/FGNN.md)
+
 ## GNN+CF
 
 - ## [Neural Graph Collaborative Filtering(NGCF)](./Paper/NGCF.md)
