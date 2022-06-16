@@ -64,6 +64,8 @@ $$
 $$
 L = -\sum_{i=1}^l one-hot(v_{label,i})log(\hat {y_i})
 $$
+
+
 **实验结果**:  
 
 复现回来补
