@@ -214,6 +214,8 @@ gnn值得一读的内容
 
 - ## [Personalized Graph Neural Networks with Attention Mechanism for Session-Aware Recommendation(A-PGNN)](./Paper/A-PGNN.md)
 
+  > 对于session-aware推荐本模型提出了两个主要组件. 第一, PGNN对用户的序列图额外考虑了用户特征. 第二使用Trm融合了历史session对当前session的影响.
+
 ## GNN+CF
 
 - ## [Neural Graph Collaborative Filtering(NGCF)](./Paper/NGCF.md)
