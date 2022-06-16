@@ -212,6 +212,8 @@ gnn值得一读的内容
 
   > 和[SRGNN](./SRGNN.md)一样都是将序列转换为序列图, 但是FGNN是将一个序列转换成一个图, 不同序列之间的图独立, 然后使用Readout操作得到序列图的特征, 将序列推荐问题转成了图分类问题.  除此以外作者提出了weighted attention graph layer来更新节点embedding.
 
+- ## [Personalized Graph Neural Networks with Attention Mechanism for Session-Aware Recommendation(A-PGNN)](./Paper/A-PGNN.md)
+
 ## GNN+CF
 
 - ## [Neural Graph Collaborative Filtering(NGCF)](./Paper/NGCF.md)
@@ -238,7 +240,7 @@ gnn值得一读的内容
 
 ## 综述
 
-## [Toward the next generation of recommender systems: a survey of the state-of-the-art and possible extensions](./Paper/Toward_the_next_generation_of_recommender_systems_a_survey_of_the_state-of-the-art_and_possible_extensions.md)
+- ## [Toward the next generation of recommender systems: a survey of the state-of-the-art and possible extensions](./Paper/Toward_the_next_generation_of_recommender_systems_a_survey_of_the_state-of-the-art_and_possible_extensions.md)
 
 
 
