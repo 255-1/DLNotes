@@ -21,24 +21,3 @@
 
 ![](https://paperrecord.oss-cn-shanghai.aliyuncs.com/202204081304807.png)
 **个人总结**：本综述讲解推荐系统算法主要是讲文本相关领域，算法偏向机器学习,作为较早的综述。讲解了基本的content-based和collabrate-based的常用算法和区别以及各自的优缺点，提出了混合使用二者以及未来做出的扩展
-
-+ ***[Deep Learning based Recommender System: A Survey and New Perspectives](https://arxiv.org/abs/1707.07435)***   
-
-**年份**： 2018
-**引用次数**： 563
-**应用领域**：推荐系统  
-**方法及优缺点**：  
-**展望**：  
-**相关工作**：  
-**个人总结**： 
-
-
-<!-- + ***[Deep Learning based Recommender System: A Survey and New Perspectives](https://arxiv.org/abs/1707.07435)***   
-
-**年份**： 
-**引用次数**： 
-**应用领域**：推荐系统  
-**方法及优缺点**：  
-**展望**：  
-**相关工作**：  
-**个人总结**：  -->

@@ -244,6 +244,8 @@ gnn值得一读的内容
 
 - ## [Toward the next generation of recommender systems: a survey of the state-of-the-art and possible extensions](./Paper/Toward_the_next_generation_of_recommender_systems_a_survey_of_the_state-of-the-art_and_possible_extensions.md)
 
+- ## [Graph Neural Networks in Recommender Systems: A Survey](./Paper/GNNRec_Survey.md)
+
 
 
 其他值得一读的文章  
