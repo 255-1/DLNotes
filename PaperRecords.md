@@ -148,7 +148,7 @@
 
 ## GNN基础
 
-- ## [Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering(GCN)](./Paper/GCN.md)
+- ## [Convolutional	 Neural Networks on Graphs with Fast Localized Spectral Filtering(GCN)](./Paper/GCN.md)
 
   > 本模型旨在将CNN推广到图这种数据结构中, 在spectral graph理论的基础上使用CNN, 这种办法有和CNN一样的计算复杂度和学习复杂性, 并且这种办法可以适用于任何一种图结构中.
 
@@ -237,6 +237,12 @@ gnn值得一读的内容
 [PinSAGE 召回模型及源码分析(1): PinSAGE 简介](https://zhuanlan.zhihu.com/p/275942839)
 
 [PinSage：GCN在商业推荐系统首次成功应用](https://zhuanlan.zhihu.com/p/63214411)
+
+
+
+## 对比学习推荐系统
+
+- ## [Contrastive Learning for Sequential Recommendation(CL4Rec)](./Paper/CL4SRec)
 
 
 
