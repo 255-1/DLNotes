@@ -14,11 +14,11 @@
 
   >CPC作为特征提取可以用于任何领域,这些数据可以以有序的顺序表示: 文本、语音、视频,甚至图像(图像可以看作是一系列像素或补丁). CPC通过编码信息来学习表示,这些信息在多个时间步骤之间共享,而丢弃本地信息.这些特性通常被称为“慢特性”: 这些特性不会随着时间的推移而变化得太快.主要优点简单,计算需求小并且结果很encouraging, 而且这个用法可以用在许多形式.  
 
-+ ##  [Contrastive Multiview Coding(CMC)](./Paper/Contrastive_Multiview_Coding.md)
++ ##  [Contrastive Multiview Coding(CMC)](./Paper/CMC.md)
   
   >通过最大化同一物品的不同视角下的mutual information学习到的特征更加好, 视角越多效果越好, 作者推广了之前的只有两个视角的方法到更多视角的情况([CPC](./Paper/Representation_Learning_with_Constrastive_Predictive_Coding.md), DeepInfoMax, [InstDisc](./Paper/Unsupervised_Feature_Learning_via_Non-Parametric_Instance_Discrimination.md)).   
   
-+ ##  [Learning deep representations by mutual information estimation and maximization(DeepInfoMax)](./Paper/Learning_deep_representations_by_mutual_information_estimation_and_maximization.md)
++ ##  [Learning deep representations by mutual information estimation and maximization(DeepInfoMax)](./Paper/DeepInfoMax.md)
 
   > 本文通过最大化输入和输出之间的互信息MI(mutual information)来无监督学习representation, 并且作者发现结构很重要, 整合输入中的局部信息(local MI)可以显著提高下游任务的适用性. DIM同时考虑了global MI, local MI, 和使用AAE(Adversarial autoencoders)思想限制先验概率,来约束学习到得representation, 让它得分布更容易处理.
 
@@ -243,6 +243,8 @@ gnn值得一读的内容
 ## 对比学习推荐系统
 
 - ## [Contrastive Learning for Sequential Recommendation(CL4Rec)](./Paper/CL4SRec)
+
+- ## [S3-Rec: Self-Supervised Learning for Sequential Recommendation with Mutual Information Maximization](./Paper/S3Rec.md)
 
 
 
