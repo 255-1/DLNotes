@@ -244,7 +244,9 @@ gnn值得一读的内容
 
 - ## [Contrastive Learning for Sequential Recommendation(CL4Rec)](./Paper/CL4SRec)
 
-- ## [S3-Rec: Self-Supervised Learning for Sequential Recommendation with Mutual Information Maximization](./Paper/S3Rec.md)
+- ## [S3-Rec: Self-Supervised Learning for Sequential Recommendation with Mutual Information Maximization](./Paper/S3Rec.md) 
+
+- ## [Bootstrapping User and Item Representations for One-Class Collaborative Filtering(BUIR)](./Paper/BUIR.md)
 
 
 
