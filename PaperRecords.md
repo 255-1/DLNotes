@@ -244,11 +244,21 @@ gnn值得一读的内容
 
 - ## [Contrastive Learning for Sequential Recommendation(CL4Rec)](./Paper/CL4SRec)
 
-- ## [S3-Rec: Self-Supervised Learning for Sequential Recommendation with Mutual Information Maximization](./Paper/S3Rec.md) 
+  > 普通的序列推荐由于数据的稀疏性导致很难学习到高质量的用户特征. 所以引入了对比学习框架去捕获自监督信号. 本论文使用了三种数据增强的方法(crop/mask/reorder)去生成自监督信号.
 
-- ## [Bootstrapping User and Item Representations for One-Class Collaborative Filtering(BUIR)](./Paper/BUIR.md)
+- ## [S3-Rec: Self-Supervised Learning for Sequential Recommendation with Mutual Information Maximization](./Paper/S3Rec.md)
 
+  > 普通的序列推荐模型容易受到数据稀疏问题. 所以提出了本文的S3Rec.该方法的主要思想是利用内在的数据相关性来获得自我监督信号，并通过预先训练的方法来增强数据表示，以改进序列推荐.  使用了自监督目标和MIM来学习不同的属性,物品, 子序列和序列这些的关联. MIM可以提供一个统一的方法去表现数据的关联性. 这是第一个序列推荐的pre-train的序列推荐模型, 自监督目标为**item-attribute,sequence-item, sequence-attribute和sequence-subsequence**
 
+- ## [Bootstrapping User and Item Representations for One-Class Collaborative Filtering(BUIR)](./Paper/BUIR.md) 
+
+  > BPR的方法为了判别正样本和负样本, 前人工作更多的依赖于负样本采样, 但是这种情况下可能会让"未被观察的正样本"定义为负样本. 本文的BUIR提出了一种不需要负样本, 不仅让正样本之间的相关性更强, 也能防止模型塌陷.
+  >
+  > BUIR有两个encoder, 第一个online encoder用来预测第二个encoder的输出, 第二个target encoder通过慢慢近似第一个encoder提供一个稳定的目标.BUIR通过直接最小化item和user的交叉预测误差来学习特征.  除此以外BUIR使用数据增强input来缓解数据稀疏问题.
+
+- ## [Self-supervised Graph Learning for Recommendation(SGL)](./Paper/SGL.md)
+
+  > 作者认为[LightGCN](./LightGCN.md)和[PinSage](./PinSage.md)有两个限制, 高度数节点在特征学习上作用更强. 损害了低度数节点的特征学习, 其次, 特征容易受到噪声影响, 由于agg的方案会扩大观察到的边的影响. 所以为了加强鲁棒性和准确度增加了辅助的自监督任务, 设计了三种生成视角, **node dropout, edge dropout, random walk**, 除此以外作者还发现使用硬负样本会有其他作用, 不仅提升了模型表现还加速了训练过程.
 
 ## 综述
 
