@@ -258,7 +258,12 @@ gnn值得一读的内容
 
 - ## [Self-supervised Graph Learning for Recommendation(SGL)](./Paper/SGL.md)
 
-  > 作者认为[LightGCN](./LightGCN.md)和[PinSage](./PinSage.md)有两个限制, 高度数节点在特征学习上作用更强. 损害了低度数节点的特征学习, 其次, 特征容易受到噪声影响, 由于agg的方案会扩大观察到的边的影响. 所以为了加强鲁棒性和准确度增加了辅助的自监督任务, 设计了三种生成视角, **node dropout, edge dropout, random walk**, 除此以外作者还发现使用硬负样本会有其他作用, 不仅提升了模型表现还加速了训练过程.
+  > 作者认为[LightGCN](./LightGCN.md)和[PinSage](./PinSage.md)有两个限制, 高度数节点在特征学习上作用更强. 损害了低度数节点的特征学习, 其次, 特征容易受到噪声影响, 由于agg的方案会扩大观察到的边的影响. 所以为了加强鲁棒性和准确度增加了辅助的自监督任务, 设计了三种生成视角, **node dropout, edge dropout, random walk**, 除此以外作者还发现使用硬负样本会有其他作用, 不仅提升了模型表现还加速了训练过程.  
+  
+- ## [Are Graph Augmentations Necessary? Simple Graph
+  Contrastive Learning for Recommendation(SimGCL)](./Paper/SimGCL.md)
+
+  > 作者想要知道为什么CL方法能得到更好表现效果, 得到在基于CL的推荐模型中，CL通过学习更均匀分布的用户/物品表示来操作，这可以隐式地减轻受欢迎程度偏差, 同时作者得到了图的增强并不是必须的, 反而是添加一些均匀的噪声到embedding里面会得到更好的效果. 最后作者得到在基于CL的模型中, CL loss是核心, 而图增强只是一些次要角色, 优化CL loss有助于在推荐场景下去偏见.
 
 ## 综述
 
