@@ -117,10 +117,6 @@
   >
   > 基于这两种限制, 作者提出了BERT4Rec,为了防止信息泄露并且高效地训练双向模型,作者在序列化建模时采用了Cloze目标,通过联合调节左右上下文来预测序列中的随机屏蔽项.通过这种方式,学习了一个双向表示模型,让用户历史行为中的每一项融合来自左侧和右侧的信息
 
-+ ## [Disentangled Self-Supervision in Sequential Recommenders](./Paper/Disentangled_Self-Supervision_in_Sequential_Recommenderss.md)
-
-  > 本文的seq2seq在传统的seq2item策略上进行加强, 能发现更加long-term future, 而不是停留在下一个点击预测.
-
 + ## [Feature-level Deeper Self-Attention Network for Sequential Recommendation(FDSA)](./Paper/FDSA.md)
 
   > 现有的模型只考虑了序列中物品的转换模式, 忽视了物品的特征(种类, 品牌)之间的转换模式. 所以提出了本文的FDSA模型, 首次将不同的物品特征整合进特征序列中, 将推荐过程分成item-level和feature-level两个方向, 并且各自使用自注意力块进行学习.  最后整合到一起经过两层的全连接层进行物品推荐.
@@ -240,15 +236,7 @@ gnn值得一读的内容
 
 
 
-## 对比学习推荐系统
-
-- ## [Contrastive Learning for Sequential Recommendation(CL4Rec)](./Paper/CL4SRec)
-
-  > 普通的序列推荐由于数据的稀疏性导致很难学习到高质量的用户特征. 所以引入了对比学习框架去捕获自监督信号. 本论文使用了三种数据增强的方法(crop/mask/reorder)去生成自监督信号.
-
-- ## [S3-Rec: Self-Supervised Learning for Sequential Recommendation with Mutual Information Maximization](./Paper/S3Rec.md)
-
-  > 普通的序列推荐模型容易受到数据稀疏问题. 所以提出了本文的S3Rec.该方法的主要思想是利用内在的数据相关性来获得自我监督信号，并通过预先训练的方法来增强数据表示，以改进序列推荐.  使用了自监督目标和MIM来学习不同的属性,物品, 子序列和序列这些的关联. MIM可以提供一个统一的方法去表现数据的关联性. 这是第一个序列推荐的pre-train的序列推荐模型, 自监督目标为**item-attribute,sequence-item, sequence-attribute和sequence-subsequence**
+## 对比学习 + CF
 
 - ## [Bootstrapping User and Item Representations for One-Class Collaborative Filtering(BUIR)](./Paper/BUIR.md) 
 
@@ -264,11 +252,29 @@ gnn值得一读的内容
   
   > 作者想要知道为什么CL方法能得到更好表现效果, 得到在基于CL的推荐模型中，CL通过学习更均匀分布的用户/物品表示来操作，这可以隐式地减轻受欢迎程度偏差, 同时作者得到了图的增强并不是必须的, 反而是添加一些均匀的噪声到embedding里面会得到更好的效果. 最后作者得到在基于CL的模型中, CL loss是核心, 而图增强只是一些次要角色, 优化CL loss有助于在推荐场景下去偏见.
 
+## 对比学习+序列
+
+- ## [Contrastive Learning for Sequential Recommendation(CL4Rec)](./Paper/CL4SRec)
+
+  > 普通的序列推荐由于数据的稀疏性导致很难学习到高质量的用户特征. 所以引入了对比学习框架去捕获自监督信号. 本论文使用了三种数据增强的方法(crop/mask/reorder)去生成自监督信号.
+
+- ## [S3-Rec: Self-Supervised Learning for Sequential Recommendation with Mutual Information Maximization](./Paper/S3Rec.md)
+
+  > 普通的序列推荐模型容易受到数据稀疏问题. 所以提出了本文的S3Rec.该方法的主要思想是利用内在的数据相关性来获得自我监督信号，并通过预先训练的方法来增强数据表示，以改进序列推荐.  使用了自监督目标和MIM来学习不同的属性,物品, 子序列和序列这些的关联. MIM可以提供一个统一的方法去表现数据的关联性. 这是第一个序列推荐的pre-train的序列推荐模型, 自监督目标为**item-attribute,sequence-item, sequence-attribute和sequence-subsequence**
+
+- ## [Disentangled Self-Supervision in Sequential Recommenders(DSSRec)](./Paper/Disentangled_Self-Supervision_in_Sequential_Recommenderss.md)
+
+  > 本文的seq2seq在传统的seq2item策略上进行加强, 能发现更加long-term future, 而不是停留在下一个点击预测.
+
+- ## [Self-Supervised Graph Co-Training for Session-based Recommendation](./Paper/COTREC.md)
+
 ## 综述
 
 - ## [Toward the next generation of recommender systems: a survey of the state-of-the-art and possible extensions](./Paper/Toward_the_next_generation_of_recommender_systems_a_survey_of_the_state-of-the-art_and_possible_extensions.md)
 
 - ## [Graph Neural Networks in Recommender Systems: A Survey](./Paper/GNNRec_Survey.md)
+
+- ## [Self-Supervised Learning for Recommender System: A Survey](./Paper/SSR_Survy.md)
 
 
 
