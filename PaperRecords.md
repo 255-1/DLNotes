@@ -29,6 +29,8 @@
 + ##  [Momentum Contrast for Unsupervised Visual Representation Learning(Moco)](./Paper/Momentum_Contrast_for_Unsupervised_Visual_Representation_Learning.md)
 
   >Moco将对比学习特征看成一个字典查找问题, 并且总结了前人的问题, 通过使用队列+动量编码器实现了一个又大又一致的的字典办法, 前人的成果只能有其中一种办法.这些特征在下游任务上效果很好.
+  
++ ## [Prototypical Contrastive Learning Of  Unsupervised Representation(PCL)](./Paper/PCL.md)
 
 对比学习有价值的内容  
 
@@ -238,7 +240,7 @@ gnn值得一读的内容
 
 ## 对比学习 + CF
 
-- ## [Bootstrapping User and Item Representations for One-Class Collaborative Filtering(BUIR)](./Paper/BUIR.md) 
+- ## [Bootstrapping User and Item Representations for One-Class Collaborative Filtering(BUIR)](./Paper/BUIR.md)
 
   > BPR的方法为了判别正样本和负样本, 前人工作更多的依赖于负样本采样, 但是这种情况下可能会让"未被观察的正样本"定义为负样本. 本文的BUIR提出了一种不需要负样本, 不仅让正样本之间的相关性更强, 也能防止模型塌陷.
   >
@@ -254,7 +256,7 @@ gnn值得一读的内容
 
 ## 对比学习+序列
 
-- ## [Contrastive Learning for Sequential Recommendation(CL4Rec)](./Paper/CL4SRec)
+- ## [Contrastive Learning for Sequential Recommendation(CL4Rec)](./Paper/CL4SRec.md)
 
   > 普通的序列推荐由于数据的稀疏性导致很难学习到高质量的用户特征. 所以引入了对比学习框架去捕获自监督信号. 本论文使用了三种数据增强的方法(crop/mask/reorder)去生成自监督信号.
 
