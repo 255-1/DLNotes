@@ -32,6 +32,8 @@
   
 + ## [Prototypical Contrastive Learning Of  Unsupervised Representation(PCL)](./Paper/PCL.md)
 
+  > PCL在个体判别的基础上引入聚类算法, 这样不仅可以学习到low-level的特征区别还可以学习到隐语义结构信息. 对于聚类算法使用EM算法来极大似然估计来优化网络参数$\theta$ 
+
 对比学习有价值的内容  
 
 [李沐Moco](https://www.bilibili.com/video/BV1C3411s7t9/?spm_id_from=333.788)  
