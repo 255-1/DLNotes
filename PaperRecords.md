@@ -270,6 +270,18 @@ gnn值得一读的内容
 
   > 本文的seq2seq在传统的seq2item策略上进行加强, 能发现更加long-term future, 而不是停留在下一个点击预测.
 
+- ## [Intent Contrastive Learning for Sequential Recommendation(ICL)](./Paper/ICL.md)
+
+  > 将[PCL](./Paper/PCL.md)中的聚类用于推荐系统当成使用户的intention用于序列推荐, 通过最大化intention和序列这一对正样本的相似度来完成对比学习. 
+
+- ## [Enhancing Sequential Recommendation with Graph Contrastive Learning(GCL4SR)](./Paper/GCL4SR.md)
+
+  > 类似SRGNN的做法, 对全局的序列有向图设计了一个新的点击频率的邻接矩阵的做法, 相当于对SRGNN做了个对比学习, 除此以外因为是序列推荐引入了用户信息, 使用一个User Specific Gating融合用户的信息, 这里用了MMD loss来融合全局的信息和当前序列的信息
+  
+- ## [Sequential Recommendation with Multiple Contrast Signals(ContraRec)](./Paper/ContraRec.md)
+
+  > 使用了两种对比context-target和context-context, 前一种希望序列和目标物品相似, 后一种希望相同物品的前置序列要尽量相似. 除此以外, context-target的方法可以看成是传统BPR的一种推广作者这里提出了BPR+新的loss. 	
+
 - ## [Self-Supervised Graph Co-Training for Session-based Recommendation](./Paper/COTREC.md)
 
 ## 综述
