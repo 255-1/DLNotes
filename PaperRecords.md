@@ -282,9 +282,13 @@ gnn值得一读的内容
 
   > 使用了两种对比context-target和context-context, 前一种希望序列和目标物品相似, 后一种希望相同物品的前置序列要尽量相似. 除此以外, context-target的方法可以看成是传统BPR的一种推广作者这里提出了BPR+新的loss. 	
 
-- ## [Contrastive Learning for Representation Degeneration Problem in Sequential Recoomendation]()
+- ## [Contrastive Learning for Representation Degeneration Problem in Sequential Recoomendation(DuoRec)]()
 
   > 这篇文章主要参考了[7]中的特征退化问题, 这里作者说用了一个采样策略同ContraRec的CCC办法, 但是个人感觉不算采样策略而是一种数据增强的办法. 除此以外作者类似SGL, 对Transform做了Model-level的positive-pair, 所谓Model-level对比学习就是对模型embedding层和Transformer Encoder做不同Dropout, 让同一个输入得到输出再输入. 类似SimCSE
+
+- ## [MixGCF: An Improved Training Method for Graph Neural Network-based Recommender Systems](./Paper/MixGCF.md)
+
+  > 本文重点研究的是负采样方面的研究, 通过user-item图以及**GNN的消息汇聚过程**中得到负样本, 通过把正样本信息注入到负样本中来得到硬负采样, 挺amazing的
 
 - ## [Self-Supervised Graph Co-Training for Session-based Recommendation](./Paper/COTREC.md)
 
