@@ -1,5 +1,13 @@
 # 论文笔记
 
+## 综述
+
+- ## [Toward the next generation of recommender systems: a survey of the state-of-the-art and possible extensions](./Paper/Toward_the_next_generation_of_recommender_systems_a_survey_of_the_state-of-the-art_and_possible_extensions.md)
+
+- ## [Graph Neural Networks in Recommender Systems: A Survey](./Paper/GNNRec_Survey.md)
+
+- ## [Self-Supervised Learning for Recommender System: A Survey](./Paper/SSR_Survy.md)
+
 ## 对比学习基础
 
 + ##  [Unsupervised Feature Learning via non-Parametric Instance Discrimination(InstDisc)](./Paper/Unsupervised_Feature_Learning_via_Non-Parametric_Instance_Discrimination.md)
@@ -251,9 +259,17 @@ gnn值得一读的内容
 - ## [Self-supervised Graph Learning for Recommendation(SGL)](./Paper/SGL.md)
 
   > 作者认为[LightGCN](./LightGCN.md)和[PinSage](./PinSage.md)有两个限制, 高度数节点在特征学习上作用更强. 损害了低度数节点的特征学习, 其次, 特征容易受到噪声影响, 由于agg的方案会扩大观察到的边的影响. 所以为了加强鲁棒性和准确度增加了辅助的自监督任务, 设计了三种生成视角, **node dropout, edge dropout, random walk**, 除此以外作者还发现使用硬负样本会有其他作用, 不仅提升了模型表现还加速了训练过程.  
-  
+
+- ## [MixGCF: An Improved Training Method for Graph Neural Network-based Recommender Systems](./Paper/MixGCF.md)
+
+  > 本文重点研究的是负采样方面的研究, 通过user-item图以及**GNN的消息汇聚过程**中得到负样本, 通过把正样本信息注入到负样本中来得到硬负采样, 挺amazing的
+
+- ## [Improving Graph Collaborative Filtering with Neighborhood-enriched(NCL)]()
+
+  > 分为structure-contrastive和semantic-contrastive两种, 对于第一种他定义LightGCN的偶数层输出和embedding层的特征相似, 对于semantic和PCL一样用的聚类, 算法都一样
+
 - ## [Are Graph Augmentations Necessary? Simple GraphContrastive Learning for Recommendation(SimGCL)](./Paper/SimGCL.md)
-  
+
   > 作者想要知道为什么CL方法能得到更好表现效果, 得到在基于CL的推荐模型中，CL通过学习更均匀分布的用户/物品表示来操作，这可以隐式地减轻受欢迎程度偏差, 同时作者得到了图的增强并不是必须的, 反而是添加一些均匀的噪声到embedding里面会得到更好的效果. 最后作者得到在基于CL的模型中, CL loss是核心, 而图增强只是一些次要角色, 优化CL loss有助于在推荐场景下去偏见.
 
 ## 对比学习+序列
@@ -285,20 +301,12 @@ gnn值得一读的内容
 - ## [Contrastive Learning for Representation Degeneration Problem in Sequential Recoomendation(DuoRec)]()
 
   > 这篇文章主要参考了[7]中的特征退化问题, 这里作者说用了一个采样策略同ContraRec的CCC办法, 但是个人感觉不算采样策略而是一种数据增强的办法. 除此以外作者类似SGL, 对Transform做了Model-level的positive-pair, 所谓Model-level对比学习就是对模型embedding层和Transformer Encoder做不同Dropout, 让同一个输入得到输出再输入. 类似SimCSE
+  
+- ## [Self-Supervised Learning For Sequential Recommendation With Model Augmentation(SRMA)]()
 
-- ## [MixGCF: An Improved Training Method for Graph Neural Network-based Recommender Systems](./Paper/MixGCF.md)
-
-  > 本文重点研究的是负采样方面的研究, 通过user-item图以及**GNN的消息汇聚过程**中得到负样本, 通过把正样本信息注入到负样本中来得到硬负采样, 挺amazing的
+  >由于1) 数据增强的方式繁多, 需要尝试许多方法, 2) 数据增强可能会破坏了序列的关联性, 3) 需要许多先验知识. 在使用数据增强的基础上额外设计了三种模型model-level的数据增强方式, 有neuron masking, layer dropping和 encoder complementing. neuron就是dropout, layer dropping就是在Encode后面加上K层的FFN, 按照一定概率drop某些layer, encoder complementing引入其他的encoder来得到特征(RNN).
 
 - ## [Self-Supervised Graph Co-Training for Session-based Recommendation](./Paper/COTREC.md)
-
-## 综述
-
-- ## [Toward the next generation of recommender systems: a survey of the state-of-the-art and possible extensions](./Paper/Toward_the_next_generation_of_recommender_systems_a_survey_of_the_state-of-the-art_and_possible_extensions.md)
-
-- ## [Graph Neural Networks in Recommender Systems: A Survey](./Paper/GNNRec_Survey.md)
-
-- ## [Self-Supervised Learning for Recommender System: A Survey](./Paper/SSR_Survy.md)
 
 
 
