@@ -256,6 +256,10 @@ gnn值得一读的内容
   >
   > BUIR有两个encoder, 第一个online encoder用来预测第二个encoder的输出, 第二个target encoder通过慢慢近似第一个encoder提供一个稳定的目标.BUIR通过直接最小化item和user的交叉预测误差来学习特征.  除此以外BUIR使用数据增强input来缓解数据稀疏问题.
 
+- ## [SelfCF: A Simple Framework for Self-supervised Collaborative Filtering]()
+
+  > BUIR类似的自预测方法不需要负样本, 先学习Embedding然后将结果送到online和target 让online预测target, 并且target会额外添加三种扰动来增强数据
+  
 - ## [Self-supervised Graph Learning for Recommendation(SGL)](./Paper/SGL.md)
 
   > 作者认为[LightGCN](./LightGCN.md)和[PinSage](./PinSage.md)有两个限制, 高度数节点在特征学习上作用更强. 损害了低度数节点的特征学习, 其次, 特征容易受到噪声影响, 由于agg的方案会扩大观察到的边的影响. 所以为了加强鲁棒性和准确度增加了辅助的自监督任务, 设计了三种生成视角, **node dropout, edge dropout, random walk**, 除此以外作者还发现使用硬负样本会有其他作用, 不仅提升了模型表现还加速了训练过程.  
@@ -267,6 +271,10 @@ gnn值得一读的内容
 - ## [Improving Graph Collaborative Filtering with Neighborhood-enriched(NCL)]()
 
   > 分为structure-contrastive和semantic-contrastive两种, 对于第一种他定义LightGCN的偶数层输出和embedding层的特征相似, 对于semantic和PCL一样用的聚类, 算法都一样
+
+- ## [Enhanced Graph Learning for Collaborative Filtering via Mutual Information Maximization(EGLN)]()
+
+  > 在普通CF的基础上, 计算user和item的相似度生成一个新的Residual Graph, 这个新图记录了user最相关的topK个item, 让这个参差图和交互图形成对比学习, 除此以外作者为了保持图层级的一致性设计了个新的Loss函数, 蛮复杂
 
 - ## [Are Graph Augmentations Necessary? Simple GraphContrastive Learning for Recommendation(SimGCL)](./Paper/SimGCL.md)
 
@@ -306,7 +314,13 @@ gnn值得一读的内容
 
   >由于1) 数据增强的方式繁多, 需要尝试许多方法, 2) 数据增强可能会破坏了序列的关联性, 3) 需要许多先验知识. 在使用数据增强的基础上额外设计了三种模型model-level的数据增强方式, 有neuron masking, layer dropping和 encoder complementing. neuron就是dropout, layer dropping就是在Encode后面加上K层的FFN, 按照一定概率drop某些layer, encoder complementing引入其他的encoder来得到特征(RNN).
 
+- ## [Contrastive Self-supervised Sequential Recommendation with Robust Augmentation(CoSeRec)]()
+
+  > 序列推荐中常用的数据增强方式会破坏序列的信息, 类似SRMA的想法, 提出了一种Informative augmentation, 通过把最关联物品"代替"或者"插入"到原序列完成增强. 除此以外作者还提出了短的序列长度如果数据增强会破坏序列的原始信息. 所以用一个阈值区别开来.
+
 - ## [Self-Supervised Graph Co-Training for Session-based Recommendation](./Paper/COTREC.md)
+
+
 
 
 
