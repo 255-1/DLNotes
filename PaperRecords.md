@@ -318,6 +318,10 @@ gnn值得一读的内容
 
   > 序列推荐中常用的数据增强方式会破坏序列的信息, 类似SRMA的想法, 提出了一种Informative augmentation, 通过把最关联物品"代替"或者"插入"到原序列完成增强. 除此以外作者还提出了短的序列长度如果数据增强会破坏序列的原始信息. 所以用一个阈值区别开来.
 
+- ## [Dual Contrastive Network for Sequential Recommendation]()
+
+  > 引入了user预测的对比学习任务来实现双向预测, 不仅根据用户点击过的物品序列预测下一次点击物品, 还根据点击过这个预测物品的用户序列来预测当前用户.
+
 - ## [Self-Supervised Graph Co-Training for Session-based Recommendation](./Paper/COTREC.md)
 
 
